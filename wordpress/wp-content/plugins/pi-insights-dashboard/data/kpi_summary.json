@@ -1,0 +1,331 @@
+{
+  "generated_at": "2026-10-18T06:41:32.427683+00:00",
+  "data_disclaimer": "Synthetic demo data for educational analytics demonstration only.",
+  "summary": {
+    "total_sessions": 364805,
+    "total_users": 297045,
+    "total_pageviews": 931673,
+    "total_conversions": 6594,
+    "overall_conv_rate_pct": 1.81,
+    "overall_bounce_rate_pct": 47.52,
+    "avg_session_duration_sec": 136.6,
+    "wow_change_pct": 0.23,
+    "mom_change_pct": -42.1
+  },
+  "monthly_trend": {
+    "labels": [
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07",
+      "2026-08",
+      "2026-09",
+      "2026-10"
+    ],
+    "sessions": [
+      17849,
+      17666,
+      18512,
+      18644,
+      18784,
+      21869,
+      19599,
+      21119,
+      20985,
+      19308,
+      15463,
+      21770,
+      22165,
+      25614,
+      23918,
+      23637,
+      24005,
+      13898
+    ],
+    "users": [
+      14479,
+      14289,
+      14981,
+      15098,
+      15226,
+      17813,
+      15989,
+      17228,
+      17034,
+      15663,
+      12527,
+      17774,
+      18082,
+      21044,
+      19543,
+      19292,
+      19621,
+      11362
+    ],
+    "conversions": [
+      280,
+      263,
+      288,
+      301,
+      329,
+      388,
+      347,
+      382,
+      366,
+      350,
+      279,
+      417,
+      409,
+      521,
+      466,
+      459,
+      489,
+      260
+    ],
+    "conv_rate": [
+      1.57,
+      1.49,
+      1.56,
+      1.61,
+      1.75,
+      1.77,
+      1.77,
+      1.81,
+      1.74,
+      1.81,
+      1.8,
+      1.92,
+      1.85,
+      2.03,
+      1.95,
+      1.94,
+      2.04,
+      1.87
+    ]
+  },
+  "channel_kpis": {
+    "labels": [
+      "Organic Search",
+      "Paid Search",
+      "Direct",
+      "Email",
+      "HCP Portal",
+      "Referral",
+      "Social"
+    ],
+    "sessions": [
+      107243,
+      77664,
+      56231,
+      42740,
+      39653,
+      23957,
+      17317
+    ],
+    "session_shares": [
+      29.4,
+      21.29,
+      15.41,
+      11.72,
+      10.87,
+      6.57,
+      4.75
+    ],
+    "conversions": [
+      1653,
+      1280,
+      441,
+      2044,
+      1062,
+      114,
+      0
+    ],
+    "conv_rates": [
+      1.54,
+      1.65,
+      0.78,
+      4.78,
+      2.68,
+      0.48,
+      0.0
+    ]
+  },
+  "device_kpis": {
+    "labels": [
+      "Desktop",
+      "Mobile",
+      "Tablet"
+    ],
+    "sessions": [
+      190676,
+      146844,
+      27285
+    ],
+    "session_shares": [
+      52.27,
+      40.25,
+      7.48
+    ],
+    "conv_rates": [
+      2.44,
+      1.32,
+      0.0
+    ],
+    "bounce_rates": [
+      36.03,
+      63.06,
+      44.16
+    ]
+  },
+  "category_kpis": {
+    "labels": [
+      "Pharmacovigilance",
+      "Clinical Evidence",
+      "Dosing & Administration",
+      "Product Monograph",
+      "Patient Resources"
+    ],
+    "sessions": [
+      100526,
+      85200,
+      75140,
+      61044,
+      42895
+    ],
+    "pageviews": [
+      257500,
+      217564,
+      191285,
+      156100,
+      109224
+    ],
+    "conversions": [
+      1810,
+      1546,
+      1359,
+      1085,
+      794
+    ],
+    "conv_rates": [
+      1.8,
+      1.81,
+      1.81,
+      1.78,
+      1.85
+    ]
+  },
+  "country_kpis": {
+    "labels": [
+      "AE",
+      "SA",
+      "KW",
+      "EG",
+      "QA",
+      "GB",
+      "US"
+    ],
+    "sessions": [
+      140703,
+      117003,
+      33067,
+      23734,
+      22882,
+      15299,
+      12117
+    ],
+    "shares": [
+      38.57,
+      32.07,
+      9.06,
+      6.51,
+      6.27,
+      4.19,
+      3.32
+    ]
+  },
+  "anomalies": [
+    {
+      "date": "2026-03-17",
+      "type": "Traffic Drop Anomaly",
+      "observed_sessions": 368,
+      "expected_sessions": 679,
+      "z_score": -1.92,
+      "description": "Statistically significant traffic depression following simulated site migration (Days 320-334)."
+    },
+    {
+      "date": "2026-03-18",
+      "type": "Traffic Drop Anomaly",
+      "observed_sessions": 327,
+      "expected_sessions": 657,
+      "z_score": -1.87,
+      "description": "Statistically significant traffic depression following simulated site migration (Days 320-334)."
+    },
+    {
+      "date": "2026-03-20",
+      "type": "Traffic Drop Anomaly",
+      "observed_sessions": 226,
+      "expected_sessions": 609,
+      "z_score": -1.87,
+      "description": "Statistically significant traffic depression following simulated site migration (Days 320-334)."
+    },
+    {
+      "date": "2025-10-20",
+      "type": "Campaign Surge",
+      "observed_sessions": 1025,
+      "expected_sessions": 673,
+      "z_score": 2.43,
+      "description": "Statistically significant engagement surge corresponding to medical symposium campaigns."
+    },
+    {
+      "date": "2025-10-21",
+      "type": "Campaign Surge",
+      "observed_sessions": 1149,
+      "expected_sessions": 694,
+      "z_score": 2.55,
+      "description": "Statistically significant engagement surge corresponding to medical symposium campaigns."
+    },
+    {
+      "date": "2026-04-01",
+      "type": "Campaign Surge",
+      "observed_sessions": 900,
+      "expected_sessions": 408,
+      "z_score": 2.28,
+      "description": "Statistically significant engagement surge corresponding to medical symposium campaigns."
+    },
+    {
+      "date": "2026-04-02",
+      "type": "Campaign Surge",
+      "observed_sessions": 907,
+      "expected_sessions": 409,
+      "z_score": 2.26,
+      "description": "Statistically significant engagement surge corresponding to medical symposium campaigns."
+    },
+    {
+      "date": "2026-06-15",
+      "type": "Campaign Surge",
+      "observed_sessions": 1506,
+      "expected_sessions": 762,
+      "z_score": 3.14,
+      "description": "Statistically significant engagement surge corresponding to medical symposium campaigns."
+    },
+    {
+      "date": "2026-06-16",
+      "type": "Campaign Surge",
+      "observed_sessions": 1476,
+      "expected_sessions": 789,
+      "z_score": 2.43,
+      "description": "Statistically significant engagement surge corresponding to medical symposium campaigns."
+    }
+  ]
+}

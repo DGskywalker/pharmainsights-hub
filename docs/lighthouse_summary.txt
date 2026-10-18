@@ -1,0 +1,10 @@
+=== PharmaInsights Hub: Official Real Lighthouse Audit Results ===
+Base URL: http://localhost:8080
+Browser: Brave / Chromium (Headless)
+------------------------------------------------------------------
+Home (Desktop): Performance: 100 | Accessibility: 98 | Best Practices: 100 | SEO: 100
+Home (Mobile): Performance: 100 | Accessibility: 98 | Best Practices: 100 | SEO: 100
+Article (Desktop): Performance: 100 | Accessibility: 98 | Best Practices: 100 | SEO: 100
+Article (Mobile): Performance: 99 | Accessibility: 98 | Best Practices: 100 | SEO: 100
+Dashboard (Desktop): Performance: 100 | Accessibility: 98 | Best Practices: 100 | SEO: 100
+Dashboard (Mobile): Performance: 99 | Accessibility: 98 | Best Practices: 100 | SEO: 100
