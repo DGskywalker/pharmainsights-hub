@@ -1,0 +1,67 @@
+services:
+  db:
+    image: mariadb:11.4
+    container_name: pharmainsights_db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-wordpress}
+      MYSQL_USER: ${MYSQL_USER:-wp_user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-wp_secure_db_pass_2026}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-wp_root_master_pass_2026}
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - "${DB_PORT:-3307}:3306"
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  wordpress:
+    image: wordpress:6.7.2-apache
+    container_name: pharmainsights_wordpress
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      WORDPRESS_DB_HOST: ${WORDPRESS_DB_HOST:-db:3306}
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME:-wordpress}
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER:-wp_user}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD:-wp_secure_db_pass_2026}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('FS_METHOD', 'direct');
+        define('DISALLOW_FILE_EDIT', true);
+        define('WP_POST_REVISIONS', 5);
+        define('WP_MEMORY_LIMIT', '256M');
+    ports:
+      - "${WP_PORT:-8080}:80"
+    volumes:
+      - wp_data:/var/www/html
+      - ./wordpress/wp-content/themes/pharmainsights-child:/var/www/html/wp-content/themes/pharmainsights-child
+      - ./wordpress/wp-content/plugins/pi-insights-dashboard:/var/www/html/wp-content/plugins/pi-insights-dashboard
+      - ./wordpress/content:/var/www/html/wp-content/content
+
+  wpcli:
+    image: wordpress:cli-2.11-php8.2
+    container_name: pharmainsights_wpcli
+    user: "33:33"
+    depends_on:
+      wordpress:
+        condition: service_started
+    environment:
+      WORDPRESS_DB_HOST: ${WORDPRESS_DB_HOST:-db:3306}
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME:-wordpress}
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER:-wp_user}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD:-wp_secure_db_pass_2026}
+    volumes:
+      - wp_data:/var/www/html
+      - ./wordpress/wp-content/themes/pharmainsights-child:/var/www/html/wp-content/themes/pharmainsights-child
+      - ./wordpress/wp-content/plugins/pi-insights-dashboard:/var/www/html/wp-content/plugins/pi-insights-dashboard
+      - ./wordpress/content:/var/www/html/wp-content/content
+      - ./scripts:/var/www/html/scripts
+
+volumes:
+  mysql_data:
+  wp_data:

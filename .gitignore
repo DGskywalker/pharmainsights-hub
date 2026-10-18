@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+*.env.local
+
+# Docker volumes and DB dumps
+mysql_data/
+wp_data/
+backups/
+
+# Python virtualenv and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log

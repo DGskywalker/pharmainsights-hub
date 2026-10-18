@@ -1,0 +1,25 @@
+=== PharmaInsights Hub: Phase 1 Verification ===
+Generated: Sun Oct 18 06:26:07 UTC 2026
+
+--- WordPress Core Version ---
+6.7.2
+
+--- Installed & Active Plugins ---
+name	status	update	version	update_version	auto_update
+akismet	inactive	available	5.3.6	5.7.2	off
+contact-form-7	active	none	6.0.4		off
+hello	inactive	none	1.7.2		off
+query-monitor	active	none	4.0.7		off
+updraftplus	active	none	1.26.11		off
+wordpress-seo	active	none	24.5		off
+db.php	dropin	none			off
+
+--- Active Theme ---
+name	status	update	version	update_version	auto_update
+twentytwentyfive	active	available	1.0	1.5	off
+
+--- Site Settings Verification ---
+Site URL: http://localhost:8080
+Home URL: http://localhost:8080
+Timezone: Asia/Dubai
+Permalink Structure: /%postname%/
