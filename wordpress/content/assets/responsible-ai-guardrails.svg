@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#0a2540"/>
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#0f345c" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="400" y="85" fill="#ffffff" font-family="Inter, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Responsible AI &amp; Governance Guardrails</text>
+  <g transform="translate(100, 140)">
+    <rect width="180" height="160" rx="8" fill="#1e293b" stroke="#f87171" stroke-width="2"/>
+    <text x="90" y="45" fill="#f87171" font-family="Inter, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Safety Barrier</text>
+    <text x="90" y="80" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Strict Refusal of</text>
+    <text x="90" y="105" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Personal Medical</text>
+    <text x="90" y="130" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Recommendations</text>
+  </g>
+  <g transform="translate(310, 140)">
+    <rect width="180" height="160" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+    <text x="90" y="45" fill="#38bdf8" font-family="Inter, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Strict Grounding</text>
+    <text x="90" y="80" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Retrieval-Augmented</text>
+    <text x="90" y="105" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Internal Articles &amp;</text>
+    <text x="90" y="130" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Verified Metrics Only</text>
+  </g>
+  <g transform="translate(520, 140)">
+    <rect width="180" height="160" rx="8" fill="#1e293b" stroke="#4ade80" stroke-width="2"/>
+    <text x="90" y="45" fill="#4ade80" font-family="Inter, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Zero PII Privacy</text>
+    <text x="90" y="80" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Server-Side Proxy</text>
+    <text x="90" y="105" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">API Key Obfuscation</text>
+    <text x="90" y="130" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Anonymized Audit Log</text>
+  </g>
+  <text x="400" y="380" fill="#64748b" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">PharmaInsights Hub Educational Graphic • Clinical AI Safety Protocol</text>
+</svg>

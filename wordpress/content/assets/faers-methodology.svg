@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#0a2540"/>
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#0f345c" stroke="#008080" stroke-width="2"/>
+  <text x="400" y="85" fill="#ffffff" font-family="Inter, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">FAERS &amp; Spontaneous Reporting Realities</text>
+  <g transform="translate(100, 140)">
+    <rect width="280" height="180" rx="8" fill="#065f46" fill-opacity="0.3" stroke="#10b981" stroke-width="2"/>
+    <text x="140" y="40" fill="#34d399" font-family="Inter, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">What FAERS Can Provide</text>
+    <text x="25" y="75" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="13">• Post-marketing safety hypotheses</text>
+    <text x="25" y="105" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="13">• Rapid detection of rare reactions</text>
+    <text x="25" y="135" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="13">• Real-world polypharmacy signals</text>
+    <text x="25" y="165" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="13">• Global reporting heterogeneity</text>
+  </g>
+  <g transform="translate(420, 140)">
+    <rect width="280" height="180" rx="8" fill="#991b1b" fill-opacity="0.3" stroke="#f87171" stroke-width="2"/>
+    <text x="140" y="40" fill="#f87171" font-family="Inter, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Methodological Limitations</text>
+    <text x="25" y="75" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="13">• Underreporting (Weber effect)</text>
+    <text x="25" y="105" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="13">• Unknown denominator (no incidence)</text>
+    <text x="25" y="135" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="13">• Confounding by indication</text>
+    <text x="25" y="165" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="13">• Not verified clinical causality</text>
+  </g>
+  <text x="400" y="380" fill="#64748b" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">PharmaInsights Hub Educational Graphic • Pharmacovigilance Realities</text>
+</svg>

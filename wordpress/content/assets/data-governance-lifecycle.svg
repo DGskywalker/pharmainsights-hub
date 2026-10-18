@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#0a2540"/>
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#0f345c" stroke="#38bdf8" stroke-width="2"/>
+  <text x="400" y="85" fill="#ffffff" font-family="Inter, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Healthcare Data Governance Lifecycle</text>
+  <g transform="translate(100, 150)">
+    <rect width="120" height="100" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+    <text x="60" y="40" fill="#38bdf8" font-family="Inter, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Collection</text>
+    <text x="60" y="70" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Standardized UTM</text>
+  </g>
+  <path d="M 230 200 L 260 200" stroke="#38bdf8" stroke-width="2"/>
+  <g transform="translate(270, 150)">
+    <rect width="120" height="100" rx="6" fill="#1e293b" stroke="#2dd4bf" stroke-width="2"/>
+    <text x="60" y="40" fill="#2dd4bf" font-family="Inter, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Validation</text>
+    <text x="60" y="70" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Schema &amp; Types</text>
+  </g>
+  <path d="M 400 200 L 430 200" stroke="#38bdf8" stroke-width="2"/>
+  <g transform="translate(440, 150)">
+    <rect width="120" height="100" rx="6" fill="#1e293b" stroke="#facc15" stroke-width="2"/>
+    <text x="60" y="40" fill="#facc15" font-family="Inter, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Aggregation</text>
+    <text x="60" y="70" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Daily Baselines</text>
+  </g>
+  <path d="M 570 200 L 600 200" stroke="#38bdf8" stroke-width="2"/>
+  <g transform="translate(610, 150)">
+    <rect width="110" height="100" rx="6" fill="#1e293b" stroke="#4ade80" stroke-width="2"/>
+    <text x="55" y="40" fill="#4ade80" font-family="Inter, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Audit</text>
+    <text x="55" y="70" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Traceability</text>
+  </g>
+  <text x="400" y="380" fill="#64748b" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">PharmaInsights Hub Educational Graphic • Data Quality &amp; Governance</text>
+</svg>

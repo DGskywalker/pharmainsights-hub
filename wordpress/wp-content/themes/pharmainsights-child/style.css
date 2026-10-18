@@ -1,0 +1,130 @@
+/*
+Theme Name: PharmaInsights Child
+Theme URI: http://localhost:8080
+Description: Accessible, evidence-driven child theme for PharmaInsights Hub built on Twenty Twenty-Five.
+Author: PharmaInsights Engineering Team
+Author URI: http://localhost:8080
+Template: twentytwentyfive
+Version: 1.0.0
+Text Domain: pharmainsights-child
+License: GNU General Public License v2 or later
+*/
+
+/* Accessibility: High contrast keyboard focus indicators */
+*:focus-visible {
+  outline: 3px solid #005a9c !important;
+  outline-offset: 3px !important;
+}
+
+/* Accessibility: Skip Link */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  background: #0a2540;
+  color: #ffffff;
+  padding: 0.75rem 1.25rem;
+  z-index: 99999;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: top 0.2s ease-in-out;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Educational Disclaimer Banner */
+.pi-disclaimer-box {
+  background-color: #f8fafc;
+  border-left: 4px solid #0284c7;
+  padding: 1.25rem 1.5rem;
+  margin: 1.75rem 0;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #1e293b;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+.pi-disclaimer-box strong {
+  color: #0369a1;
+  display: block;
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+}
+
+/* Actionable Call to Action Box */
+.pi-cta-card {
+  background: linear-gradient(135deg, #0a2540 0%, #0d3b66 100%);
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 2.25rem;
+  margin: 2.5rem 0;
+  box-shadow: 0 10px 25px -5px rgba(10, 37, 64, 0.2);
+}
+.pi-cta-card h3 {
+  color: #ffffff !important;
+  margin-top: 0;
+}
+.pi-cta-card p {
+  color: #e2e8f0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+.pi-cta-button {
+  display: inline-block;
+  background-color: #008080;
+  color: #ffffff !important;
+  padding: 0.75rem 1.75rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+.pi-cta-button:hover,
+.pi-cta-button:focus {
+  background-color: #005f5f;
+}
+
+/* Synthetic Data Badge */
+.pi-badge-synthetic {
+  display: inline-block;
+  background-color: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fcd34d;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  margin-bottom: 0.75rem;
+}
+
+/* Article Reading Layout */
+.entry-content {
+  line-height: 1.75;
+  color: #334155;
+  font-size: 1.1rem;
+}
+.entry-content h2 {
+  color: #0a2540;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+.entry-content h3 {
+  color: #0d3b66;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.35;
+}
+.entry-content blockquote {
+  border-left: 4px solid #008080;
+  margin-left: 0;
+  padding-left: 1.25rem;
+  color: #475569;
+  font-style: italic;
+}

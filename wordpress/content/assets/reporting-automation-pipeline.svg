@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#0a2540"/>
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#0f345c" stroke="#38bdf8" stroke-width="2"/>
+  <text x="400" y="85" fill="#ffffff" font-family="Inter, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Automated Reporting Engine Pipeline</text>
+  <g transform="translate(80, 150)">
+    <rect width="130" height="120" rx="6" fill="#1e293b" stroke="#60a5fa" stroke-width="2"/>
+    <text x="65" y="45" fill="#ffffff" font-family="Inter, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Cron / CI/CD</text>
+    <text x="65" y="80" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Scheduled Run</text>
+  </g>
+  <path d="M 220 210 L 250 210" stroke="#38bdf8" stroke-width="2"/>
+  <g transform="translate(260, 150)">
+    <rect width="130" height="120" rx="6" fill="#1e293b" stroke="#2dd4bf" stroke-width="2"/>
+    <text x="65" y="45" fill="#ffffff" font-family="Inter, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Data Ingestion</text>
+    <text x="65" y="80" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">CSV &amp; Logs</text>
+  </g>
+  <path d="M 400 210 L 430 210" stroke="#38bdf8" stroke-width="2"/>
+  <g transform="translate(440, 150)">
+    <rect width="130" height="120" rx="6" fill="#1e293b" stroke="#facc15" stroke-width="2"/>
+    <text x="65" y="45" fill="#ffffff" font-family="Inter, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">KPI &amp; Anomaly</text>
+    <text x="65" y="80" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Rolling Z-Scores</text>
+  </g>
+  <path d="M 580 210 L 610 210" stroke="#38bdf8" stroke-width="2"/>
+  <g transform="translate(620, 150)">
+    <rect width="100" height="120" rx="6" fill="#1e293b" stroke="#4ade80" stroke-width="2"/>
+    <text x="50" y="45" fill="#ffffff" font-family="Inter, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Output</text>
+    <text x="50" y="75" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">HTML, CSV</text>
+    <text x="50" y="95" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">&amp; Email Alert</text>
+  </g>
+  <text x="400" y="380" fill="#64748b" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">PharmaInsights Hub Educational Graphic • Automated Platform Engineering</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#0a2540"/>
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#0f345c" stroke="#008080" stroke-width="2"/>
+  <text x="400" y="85" fill="#ffffff" font-family="Inter, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Pharmacovigilance Signal Detection Workflow</text>
+  <text x="400" y="115" fill="#94a3b8" font-family="Inter, sans-serif" font-size="14" text-anchor="middle">From Spontaneous Reports to Causality Assessment</text>
+  <g transform="translate(70, 160)">
+    <rect width="180" height="150" rx="8" fill="#1e40af" fill-opacity="0.4" stroke="#60a5fa" stroke-width="2"/>
+    <text x="90" y="45" fill="#ffffff" font-family="Inter, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">1. Data Ingestion</text>
+    <text x="90" y="75" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Spontaneous ICSRs</text>
+    <text x="90" y="100" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Clinical Trials &amp; RWE</text>
+    <text x="90" y="125" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Standardized MedDRA</text>
+  </g>
+  <path d="M 260 235 L 295 235" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/>
+  <g transform="translate(305, 160)">
+    <rect width="190" height="150" rx="8" fill="#0f766e" fill-opacity="0.4" stroke="#2dd4bf" stroke-width="2"/>
+    <text x="95" y="45" fill="#ffffff" font-family="Inter, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">2. Statistical Mining</text>
+    <text x="95" y="75" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">PRR &amp; ROR Metrics</text>
+    <text x="95" y="100" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Bayesian BCPNN / EBGM</text>
+    <text x="95" y="125" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Disproportionality Flags</text>
+  </g>
+  <path d="M 505 235 L 540 235" stroke="#38bdf8" stroke-width="3"/>
+  <g transform="translate(550, 160)">
+    <rect width="180" height="150" rx="8" fill="#854d0e" fill-opacity="0.4" stroke="#facc15" stroke-width="2"/>
+    <text x="90" y="45" fill="#ffffff" font-family="Inter, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">3. Clinical Review</text>
+    <text x="90" y="75" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Biological Plausibility</text>
+    <text x="90" y="100" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Temporal Relationship</text>
+    <text x="90" y="125" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">Benefit-Risk Evaluation</text>
+  </g>
+  <text x="400" y="380" fill="#64748b" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">PharmaInsights Hub Educational Graphic • Synthetic Demo Environment</text>
+</svg>

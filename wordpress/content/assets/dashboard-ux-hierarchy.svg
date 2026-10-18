@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#0a2540"/>
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#0f345c" stroke="#008080" stroke-width="2"/>
+  <text x="400" y="85" fill="#ffffff" font-family="Inter, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Dashboard Architecture for Non-Technical Stakeholders</text>
+  <g transform="translate(80, 140)">
+    <rect width="200" height="160" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="100" cy="45" r="22" fill="#0284c7"/>
+    <text x="100" y="52" fill="#ffffff" font-family="Inter, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">1</text>
+    <text x="100" y="95" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Executive Headline</text>
+    <text x="100" y="125" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Sessions, Conversion Rate</text>
+    <text x="100" y="145" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Week-over-Week Delta</text>
+  </g>
+  <g transform="translate(300, 140)">
+    <rect width="200" height="160" rx="8" fill="#1e293b" stroke="#2dd4bf" stroke-width="2"/>
+    <circle cx="100" cy="45" r="22" fill="#008080"/>
+    <text x="100" y="52" fill="#ffffff" font-family="Inter, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">2</text>
+    <text x="100" y="95" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Visual Trends</text>
+    <text x="100" y="125" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Channel Trajectories</text>
+    <text x="100" y="145" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Anomaly Indicators</text>
+  </g>
+  <g transform="translate(520, 140)">
+    <rect width="200" height="160" rx="8" fill="#1e293b" stroke="#facc15" stroke-width="2"/>
+    <circle cx="100" cy="45" r="22" fill="#d97706"/>
+    <text x="100" y="52" fill="#ffffff" font-family="Inter, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">3</text>
+    <text x="100" y="95" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Actionable Narrative</text>
+    <text x="100" y="125" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">What this tells us</text>
+    <text x="100" y="145" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Concrete Next Steps</text>
+  </g>
+  <text x="400" y="380" fill="#64748b" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">PharmaInsights Hub Educational Graphic • Dashboard UX Principles</text>
+</svg>
