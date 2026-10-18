@@ -158,6 +158,24 @@ function pharmainsights_add_skip_link() {
 add_action( 'wp_body_open', 'pharmainsights_add_skip_link', 1 );
 
 /**
+ * Ensure skip-link target #content exists and is keyboard focusable
+ */
+function pharmainsights_add_content_id() {
+	?>
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		var main = document.querySelector("main") || document.querySelector(".entry-content");
+		if (main && !main.id) {
+			main.id = "content";
+			main.setAttribute("tabindex", "-1");
+		}
+	});
+	</script>
+	<?php
+}
+add_action( 'wp_footer', 'pharmainsights_add_content_id' );
+
+/**
  * SEO & Open Graph Meta Tags Fallback (Enhancement alongside Yoast SEO)
  */
 function pharmainsights_seo_meta_tags() {
@@ -167,6 +185,19 @@ function pharmainsights_seo_meta_tags() {
 		echo '<meta property="og:description" content="Educational platform for life-sciences omnichannel analytics, signal detection, and reporting automation." />' . "\n";
 		echo '<meta property="og:type" content="website" />' . "\n";
 		echo '<meta property="og:url" content="' . esc_url( home_url( '/' ) ) . '" />' . "\n";
+	} elseif ( is_singular() ) {
+		global $post;
+		$desc = get_the_excerpt( $post );
+		if ( empty( $desc ) ) {
+			$desc = wp_strip_all_tags( $post->post_content );
+			$desc = wp_trim_words( $desc, 25, '...' );
+		}
+		$desc = esc_attr( wp_strip_all_tags( $desc ) );
+		echo '<meta name="description" content="' . $desc . '" />' . "\n";
+		echo '<meta property="og:title" content="' . esc_attr( get_the_title( $post ) ) . ' - PharmaInsights Hub" />' . "\n";
+		echo '<meta property="og:description" content="' . $desc . '" />' . "\n";
+		echo '<meta property="og:type" content="article" />' . "\n";
+		echo '<meta property="og:url" content="' . esc_url( get_permalink( $post ) ) . '" />' . "\n";
 	}
 }
 add_action( 'wp_head', 'pharmainsights_seo_meta_tags', 1 );

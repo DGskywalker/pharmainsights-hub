@@ -25,14 +25,14 @@ setup:
 	@bash scripts/setup_wordpress.sh
 
 seed:
-	@python3 analytics/generate_data.py
-	@python3 analytics/kpis.py
+	@.venv/bin/python analytics/generate_data.py
+	@.venv/bin/python analytics/kpis.py
 
 report:
-	@python3 analytics/weekly_report.py
+	@.venv/bin/python analytics/weekly_report.py
 
 test:
-	@pytest analytics/tests/ -v
+	@PYTHONPATH=. .venv/bin/pytest analytics/tests/ -v
 
 backup:
 	@bash scripts/backup.sh

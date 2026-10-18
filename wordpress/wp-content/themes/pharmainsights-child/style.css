@@ -37,7 +37,7 @@ License: GNU General Public License v2 or later
 /* Educational Disclaimer Banner */
 .pi-disclaimer-box {
   background-color: #f8fafc;
-  border-left: 4px solid #0284c7;
+  border-left: 4px solid #005a9c;
   padding: 1.25rem 1.5rem;
   margin: 1.75rem 0;
   border-radius: 0 8px 8px 0;
@@ -47,7 +47,7 @@ License: GNU General Public License v2 or later
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 .pi-disclaimer-box strong {
-  color: #0369a1;
+  color: #005a9c;
   display: block;
   margin-bottom: 0.35rem;
   text-transform: uppercase;

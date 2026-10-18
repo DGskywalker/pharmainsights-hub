@@ -1,0 +1,48 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/digital-performance-dashboard/",
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "6.7"
+  },
+  "features": {
+    "networking": true
+  },
+  "steps": [
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "PharmaInsights Hub",
+        "blogdescription": "Evidence-Driven Healthcare Analytics & Digital Performance Intelligence",
+        "timezone_string": "Asia/Dubai",
+        "permalink_structure": "/%postname%/"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "wordpress.org/plugins",
+        "slug": "contact-form-7"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "wordpress.org/plugins",
+        "slug": "wordpress-seo"
+      }
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/divyanshgupta/pharmainsights-hub/main/wordpress/content/pharmainsights_hub_export.xml"
+      }
+    }
+  ]
+}

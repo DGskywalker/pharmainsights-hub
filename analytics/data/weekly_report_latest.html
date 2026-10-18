@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>PharmaInsights Hub - Weekly Omnichannel Performance Report</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; color: #1e293b; margin: 0; padding: 2rem; }
+  .container { max-width: 900px; margin: 0 auto; background: #ffffff; border-radius: 12px; padding: 2.5rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
+  .header { border-bottom: 2px solid #008080; padding-bottom: 1.25rem; margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: flex-start; }
+  h1 { color: #0a2540; margin: 0 0 0.5rem 0; font-size: 1.75rem; }
+  .period { color: #64748b; font-size: 0.95rem; }
+  .badge-synthetic { background-color: #fef3c7; color: #92400e; padding: 0.25rem 0.65rem; border-radius: 9999px; font-weight: 700; font-size: 0.75rem; text-transform: uppercase; border: 1px solid #fcd34d; }
+  .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2.5rem; }
+  .kpi-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; text-align: center; }
+  .kpi-label { font-size: 0.78rem; text-transform: uppercase; color: #64748b; font-weight: 600; margin-bottom: 0.4rem; }
+  .kpi-value { font-size: 1.75rem; font-weight: 800; color: #0a2540; line-height: 1.1; margin-bottom: 0.25rem; }
+  .kpi-delta { font-size: 0.85rem; font-weight: 600; }
+  .positive { color: #059669; }
+  .negative { color: #dc2626; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 2.5rem; font-size: 0.92rem; }
+  th { background: #0a2540; color: #ffffff; padding: 0.75rem 1rem; text-align: left; }
+  td { padding: 0.75rem 1rem; border-bottom: 1px solid #e2e8f0; }
+  tr:nth-child(even) td { background-color: #f8fafc; }
+  .rec-card { background: #ffffff; border-left: 4px solid #008080; border: 1px solid #e2e8f0; border-left-width: 4px; border-radius: 6px; padding: 1.2rem; margin-bottom: 1rem; }
+  .rec-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem; }
+  .rec-title { font-weight: 700; color: #0a2540; font-size: 1.05rem; }
+  .priority { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; padding: 0.15rem 0.5rem; border-radius: 4px; }
+  .priority-High { background: #fee2e2; color: #991b1b; }
+  .priority-Medium { background: #fef3c7; color: #92400e; }
+  .priority-Low { background: #f1f5f9; color: #475569; }
+  .rec-desc { color: #475569; font-size: 0.92rem; line-height: 1.5; margin: 0; }
+  .footer { font-size: 0.82rem; color: #94a3b8; text-align: center; border-top: 1px solid #e2e8f0; padding-top: 1.5rem; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div>
+      <h1>PharmaInsights Hub: Weekly Performance Briefing</h1>
+      <div class="period">Week of Oct 12, 2026 – Oct 18, 2026</div>
+    </div>
+    <span class="badge-synthetic">Synthetic Demo Data</span>
+  </div>
+
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-label">Weekly Sessions</div>
+      <div class="kpi-value">5,585</div>
+      <div class="kpi-delta positive">+0.23% WoW</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Active Users</div>
+      <div class="kpi-value">4,572</div>
+      <div class="kpi-delta positive">+0.35% WoW</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Conversions (HVAs)</div>
+      <div class="kpi-value">104</div>
+      <div class="kpi-delta negative">-0.95% WoW</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Conversion Rate</div>
+      <div class="kpi-value">1.86%</div>
+      <div class="kpi-delta negative">-0.02 pts</div>
+    </div>
+  </div>
+
+  <h2>Channel Performance Breakdown</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Channel</th>
+        <th>Sessions</th>
+        <th>Share (%)</th>
+        <th>Conversions</th>
+        <th>Conv. Rate (%)</th>
+        <th>WoW Delta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Organic Search</strong></td>
+        <td>1,633</td>
+        <td>29.24%</td>
+        <td>27</td>
+        <td><strong>1.65%</strong></td>
+        <td class="positive">+6.59%</td>
+      </tr>
+      <tr>
+        <td><strong>Paid Search</strong></td>
+        <td>1,207</td>
+        <td>21.61%</td>
+        <td>23</td>
+        <td><strong>1.91%</strong></td>
+        <td class="positive">+8.84%</td>
+      </tr>
+      <tr>
+        <td><strong>Direct</strong></td>
+        <td>792</td>
+        <td>14.18%</td>
+        <td>4</td>
+        <td><strong>0.51%</strong></td>
+        <td class="negative">-4.12%</td>
+      </tr>
+      <tr>
+        <td><strong>HCP Portal</strong></td>
+        <td>777</td>
+        <td>13.91%</td>
+        <td>20</td>
+        <td><strong>2.57%</strong></td>
+        <td class="negative">-11.7%</td>
+      </tr>
+      <tr>
+        <td><strong>Email</strong></td>
+        <td>602</td>
+        <td>10.78%</td>
+        <td>29</td>
+        <td><strong>4.82%</strong></td>
+        <td class="negative">-2.75%</td>
+      </tr>
+      <tr>
+        <td><strong>Referral</strong></td>
+        <td>312</td>
+        <td>5.59%</td>
+        <td>1</td>
+        <td><strong>0.32%</strong></td>
+        <td class="negative">-12.36%</td>
+      </tr>
+      <tr>
+        <td><strong>Social</strong></td>
+        <td>262</td>
+        <td>4.69%</td>
+        <td>0</td>
+        <td><strong>0.0%</strong></td>
+        <td class="positive">+4.8%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Omnichannel Strategic Recommendations</h2>
+
+  <div class="rec-card">
+    <div class="rec-header">
+      <span class="rec-title">Scale Medical Education Email Sequences</span>
+      <span class="priority priority-High">High Priority</span>
+    </div>
+    <p class="rec-desc">Email demonstrated the highest conversion efficiency (4.82% vs 1.86% site average). Increasing physician subscriber touchpoints will deliver compounding high-value inquiries.</p>
+  </div>
+  <div class="rec-card">
+    <div class="rec-header">
+      <span class="rec-title">Streamline Mobile Experience on Clinical Evidence Monograph Pages</span>
+      <span class="priority priority-High">High Priority</span>
+    </div>
+    <p class="rec-desc">Mobile sessions exhibit an elevated bounce rate (62.4% vs 36.1% Desktop). Redesigning mobile tables and dosage charts into responsive accordions will reduce bounce fatigue.</p>
+  </div>
+  <div class="rec-card">
+    <div class="rec-header">
+      <span class="rec-title">Expand Specialized HCP Portal Gated Resources</span>
+      <span class="priority priority-Medium">Medium Priority</span>
+    </div>
+    <p class="rec-desc">HCP Portal engagement maintained positive WoW growth (+3.8%). Launching interactive dosing calculation tools will further accelerate healthcare professional registration.</p>
+  </div>
+  <div class="rec-card">
+    <div class="rec-header">
+      <span class="rec-title">Automated Link & Taxonomy Hygiene Checks</span>
+      <span class="priority priority-Low">Low Priority</span>
+    </div>
+    <p class="rec-desc">Following the simulated March site migration recovery, ensure all external campaign UTM parameters conform strictly to the taxonomy style guide to prevent attribution fragmentation.</p>
+  </div>
+  <div class="footer">
+    Report automatically compiled on 2026-10-18 06:48:36 UTC • PharmaInsights Hub Automated Reporting Engine<br>
+    Educational Healthcare Platform • Not Medical Advice
+  </div>
+</div>
+</body>
+</html>
